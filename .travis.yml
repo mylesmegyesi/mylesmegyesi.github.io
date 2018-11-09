@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+
+script:
+  - make type-check
+  - make lint
+  - make build

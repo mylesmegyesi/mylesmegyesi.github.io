@@ -17,3 +17,6 @@ lint:
 .PHONY: lint-fix
 lint-fix:
 	npx tslint --project tsconfig.json --fix
+
+.PHONY: ci
+ci: type-check lint build
