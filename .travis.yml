@@ -2,6 +2,10 @@ sudo: false
 language: node_js
 cache: npm
 
+branches:
+  except:
+  - master # GH Pages branch
+
 script:
   - make type-check
   - make lint
@@ -11,6 +15,7 @@ deploy:
   provider: pages
   local-dir: public
   skip-cleanup: true
+  target-branch: master
   github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
