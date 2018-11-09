@@ -3,6 +3,7 @@
   "description": "Myles Megyesi's website",
   "version": "1.0.0",
   "dependencies": {
+    "gatsby": "2.0.43",
     "react": "16.6.1",
     "react-dom": "16.6.1",
     "react-helmet": "5.2.0",
@@ -13,7 +14,6 @@
   "devDependencies": {
     "@types/react": "16.7.1",
     "@types/react-helmet": "5.0.7",
-    "gatsby": "2.0.43",
     "gatsby-plugin-react-helmet": "3.0.1",
     "gatsby-plugin-typescript": "2.0.1",
     "tslint": "5.11.0",
