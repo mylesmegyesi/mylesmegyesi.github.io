@@ -5,21 +5,21 @@
   "dependencies": {
     "gatsby": "2.0.43",
     "glamor": "2.20.40",
-    "react": "16.6.1",
-    "react-dom": "16.6.1",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
     "react-helmet": "5.2.0"
   },
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "@types/react": "16.7.1",
+    "@types/react": "16.7.13",
     "@types/react-helmet": "5.0.7",
     "gatsby-plugin-glamor": "2.0.6",
     "gatsby-plugin-react-helmet": "3.0.1",
-    "gatsby-plugin-typescript": "2.0.1",
+    "gatsby-plugin-typescript": "2.0.3",
     "tslint": "5.11.0",
     "tslint-react": "3.6.0",
-    "typescript": "3.1.6"
+    "typescript": "3.2.2"
   },
   "repository": {
     "type": "git",

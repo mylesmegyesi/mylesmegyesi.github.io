@@ -107,6 +107,17 @@
     // Allow undefined or null to be used as an `if` condition
     "strict-boolean-expressions": [true, "allow-null-union", "allow-undefined-union"],
 
+    // Remove this after next release of TSLint
+    // Same as default but adds esSpecCompliant
+    "trailing-comma": [
+      true,
+      {
+        "esSpecCompliant": true,
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+
     // Default includes all options; we don't care about having typedefs on _everything_
     "typedef": [
       true,
